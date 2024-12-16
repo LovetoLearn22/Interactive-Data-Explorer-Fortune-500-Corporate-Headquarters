@@ -12,7 +12,7 @@ import pydeck as pdk
 import matplotlib.pyplot as plt
 
 # File path
-file_path = "Fortune_500_Corporate_Headquarters.csv"
+file_path = "fortune_500_hq.csv"
 # Load the data
 try:
     data = pd.read_csv(file_path)
